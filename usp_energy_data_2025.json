@@ -1,0 +1,1571 @@
+{
+  "Summer Season (Jun - Aug 2025)": {
+    "electricity": [
+      {
+        "category": "Supply",
+        "source": "National Grid Import",
+        "target": "USP Campus Electricity Grid",
+        "value": 8.833
+      },
+      {
+        "category": "Supply",
+        "source": "Local CHP (WKK Production)",
+        "target": "USP Campus Electricity Grid",
+        "value": 9.598
+      },
+      {
+        "category": "Supply",
+        "source": "Local Solar PV Generation",
+        "target": "USP Campus Electricity Grid",
+        "value": 0.736
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UMCU - WKZ [Elektra inkoop WKZ]",
+        "value": 4.655
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UMCU - AZU [Veld 18 + Veld 19]",
+        "value": 2.0
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Hugo Kruyt Building [Padualaan 8]",
+        "value": 1.192
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Androclus building [Yalelaan 1 A]",
+        "value": 0.98
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - David de Wied building [Universiteitsweg 99]",
+        "value": 0.929
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Accelerator",
+        "value": 0.796
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - New Gildestein [Yalelaan 2]",
+        "value": 0.718
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - University Library USP (UBU) [Heidelberglaan 3]",
+        "value": 0.661
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Heidelberglaan 7",
+        "value": 0.462
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Willem C. Schimmel Building / Surgical Clinic [Yalelaan 112]",
+        "value": 0.438
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 101",
+        "value": 0.382
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Victor J. Koningsberger Building / Education Center [Budapestlaan 2]",
+        "value": 0.364
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Jeanette Donker-Voet building [Yalelaan 104-106]",
+        "value": 0.361
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Prof. Dr. H. Jakob building / Pet clinic [Yalelaan 8]",
+        "value": 0.36
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz building B (VMB/GML) [Princetonlaan 8]",
+        "value": 0.355
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Genmab R&D Centre",
+        "value": 0.318
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 97",
+        "value": 0.268
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Heidelberglaan 15",
+        "value": 0.252
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Bloembergen building [Padualaan 12]",
+        "value": 0.234
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Marinus de Bruin building / Farm animals [Yalelaan 7]",
+        "value": 0.213
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Ornstein Laboratory [Princetonplein 1]",
+        "value": 0.203
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Heijmans van den Bergh Building [Universiteitsweg 98]",
+        "value": 0.2
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Bolognalaan 101",
+        "value": 0.2
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz building A (VMA/Geo) [Princetonlaan 8 A]",
+        "value": 0.197
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Educatorium [Leuvenlaan 19]",
+        "value": 0.187
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz Building C (VMC/NITG-TNO) [Princetonlaan 6]",
+        "value": 0.181
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "SSH - Johanna",
+        "value": 0.177
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Administration building [Heidelberglaan 8]",
+        "value": 0.161
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "SSH - De Bisschoppen",
+        "value": 0.154
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 99",
+        "value": 0.153
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - ESL / Earth Science Lab / vd Graaff building [Princetonlaan 4]",
+        "value": 0.152
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - NPEC [Padualaan 6]",
+        "value": 0.136
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Langeveld building [Heidelberglaan 1]",
+        "value": 0.131
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Minnaert Building [Leuvenlaan 4]",
+        "value": 0.117
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Plus Ultra",
+        "value": 0.116
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Marinus Ruppert Building [Leuvenlaan 21]",
+        "value": 0.115
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Buys Ballot laboratory [Princetonplein 5]",
+        "value": 0.096
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Caroline Bleeker building [Sorbonnelaan 4]",
+        "value": 0.084
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Tolakker [Limalaan 19]",
+        "value": 0.066
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Boiler House DGK [Jenalaan 12 KETELHUIS]",
+        "value": 0.056
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Sjoerd Groenmangebouw [Padualaan 14]",
+        "value": 0.056
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - ACCU [Budapestlaan 8]",
+        "value": 0.053
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Freudenthal Building / Mathematics [Budapestlaan 6]",
+        "value": 0.051
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Fort Hoofddijk [Budapestlaan 17]",
+        "value": 0.039
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - SL2 (formerly SRON) [Sorbonnelaan 2] (vacant)",
+        "value": 0.033
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Olympos Parking Garage (P10) [Uppsalalaan 3 Park.]",
+        "value": 0.026
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Boiler House NorthWest [Princetonlaan 10]",
+        "value": 0.022
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Cambridgelaan Parking Garage",
+        "value": 0.02
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Toulouselaan 43+45",
+        "value": 0.012
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - P9 Budapestlaan",
+        "value": 0.011
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - General outbuilding [Sorbonnelaan 2]",
+        "value": 0.01
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Jenalaan P7",
+        "value": 0.01
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Van Unnik Building [Heidelberglaan 2]",
+        "value": 0.003
+      }
+    ],
+    "heat": [
+      {
+        "category": "Supply",
+        "source": "District Heating & WKC Central Plant",
+        "target": "USP Campus Thermal Grid",
+        "value": 5.655
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Androclusgebouw [Yalelaan 1 A] [Heat]",
+        "value": 2.37
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Hugo Kruytgebouw  [Padualaan 8] [Heat]",
+        "value": 0.85
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Nieuw Gildestein  [Yalelaan 2] [Heat]",
+        "value": 0.657
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Heijmans van den Berghgebouw [Universiteitsweg 98] [Heat]",
+        "value": 0.463
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Researchkassen Botanische tuin [Uppsalalaan TUIN] [Heat]",
+        "value": 0.235
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Universiteits Bibliotheek USP (UBU) [Heidelberglaan 3] [Heat]",
+        "value": 0.185
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Prof. Dr. H. Jakob gebouw / Kliniek gezelschapsdieren [Yalelaan 8] [Heat]",
+        "value": 0.14
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Willem C. Schimmel gebouw / Kliniek Heelkunde [Yalelaan 112] [Heat]",
+        "value": 0.132
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - ESL / Earth Science Lab / v.d. Graaff gebouw [Princetonlaan 4] [Heat]",
+        "value": 0.096
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Marinus de Bruin gebouw / Landbouw huisdieren [Yalelaan 7] [Heat]",
+        "value": 0.073
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - David de Wiedgebouw [Universiteitsweg 99] [Heat]",
+        "value": 0.072
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Educatorium [Leuvenlaan 19] [Heat]",
+        "value": 0.066
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw B (VMB/GML) [Princetonlaan 8] [Heat]",
+        "value": 0.055
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Bestuursgebouw [Heidelberglaan 8] [Heat]",
+        "value": 0.044
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Jeanette Donker-Voet gebouw [Yalelaan 104-106] [Heat]",
+        "value": 0.034
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Buys Ballot laboratorium [Princetonplein 5] [Heat]",
+        "value": 0.028
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - SL2 (voorheen SRON) [Sorbonnelaan 2] (staat leeg) [Heat]",
+        "value": 0.027
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Victor J. Koningsbergergebouw / Onderwijscentrum [Budapestlaan 2] [Heat]",
+        "value": 0.026
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Freudenthal gebouw / Wiskunde [Budapestlaan 6] [Heat]",
+        "value": 0.025
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Ornstein laboratorium [Princetonplein 1] [Heat]",
+        "value": 0.024
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Caroline Bleeker gebouw [Sorbonnelaan 4] [Heat]",
+        "value": 0.016
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Marinus Ruppertgebouw [Leuvenlaan 21] [Heat]",
+        "value": 0.016
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Minnaertgebouw [Leuvenlaan 4] [Heat]",
+        "value": 0.009
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw C (VMC/NITG-TNO) [Princetonlaan 6] [Heat]",
+        "value": 0.005
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Bloembergen gebouw  [Padualaan 12] [Heat]",
+        "value": 0.004
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw A (VMA/Geo) [Princetonlaan 8 A] [Heat]",
+        "value": 0.003
+      }
+    ],
+    "summary": {
+      "total_electricity_demand_gwh": 19.166,
+      "grid_import_gwh": 8.833,
+      "chp_electricity_gwh": 9.598,
+      "pv_generation_gwh": 0.736,
+      "total_heat_demand_gwh": 5.655
+    }
+  },
+  "Winter Season (Dec - Feb 2025)": {
+    "electricity": [
+      {
+        "category": "Supply",
+        "source": "National Grid Import",
+        "target": "USP Campus Electricity Grid",
+        "value": 9.395
+      },
+      {
+        "category": "Supply",
+        "source": "Local CHP (WKK Production)",
+        "target": "USP Campus Electricity Grid",
+        "value": 9.15
+      },
+      {
+        "category": "Supply",
+        "source": "Local Solar PV Generation",
+        "target": "USP Campus Electricity Grid",
+        "value": 0.129
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UMCU - WKZ [Elektra inkoop WKZ]",
+        "value": 4.103
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UMCU - AZU [Veld 18 + Veld 19]",
+        "value": 1.449
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Hugo Kruyt Building [Padualaan 8]",
+        "value": 1.025
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Accelerator",
+        "value": 1.006
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - David de Wied building [Universiteitsweg 99]",
+        "value": 0.977
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Androclus building [Yalelaan 1 A]",
+        "value": 0.798
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - New Gildestein [Yalelaan 2]",
+        "value": 0.773
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - University Library USP (UBU) [Heidelberglaan 3]",
+        "value": 0.656
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Heidelberglaan 7",
+        "value": 0.508
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Victor J. Koningsberger Building / Education Center [Budapestlaan 2]",
+        "value": 0.46
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz building B (VMB/GML) [Princetonlaan 8]",
+        "value": 0.456
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 101",
+        "value": 0.431
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Willem C. Schimmel Building / Surgical Clinic [Yalelaan 112]",
+        "value": 0.401
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Heidelberglaan 15",
+        "value": 0.394
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Prof. Dr. H. Jakob building / Pet clinic [Yalelaan 8]",
+        "value": 0.358
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Jeanette Donker-Voet building [Yalelaan 104-106]",
+        "value": 0.295
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Plus Ultra",
+        "value": 0.294
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 97",
+        "value": 0.27
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Bolognalaan 101",
+        "value": 0.232
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Marinus de Bruin building / Farm animals [Yalelaan 7]",
+        "value": 0.231
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Buys Ballot laboratory [Princetonplein 5]",
+        "value": 0.226
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Ornstein Laboratory [Princetonplein 1]",
+        "value": 0.219
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Bloembergen building [Padualaan 12]",
+        "value": 0.214
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz Building C (VMC/NITG-TNO) [Princetonlaan 6]",
+        "value": 0.19
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Educatorium [Leuvenlaan 19]",
+        "value": 0.186
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 99",
+        "value": 0.183
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "SSH - Johanna",
+        "value": 0.18
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz building A (VMA/Geo) [Princetonlaan 8 A]",
+        "value": 0.176
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Administration building [Heidelberglaan 8]",
+        "value": 0.171
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "SSH - De Bisschoppen",
+        "value": 0.164
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Heijmans van den Bergh Building [Universiteitsweg 98]",
+        "value": 0.155
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Langeveld building [Heidelberglaan 1]",
+        "value": 0.152
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - NPEC [Padualaan 6]",
+        "value": 0.141
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Minnaert Building [Leuvenlaan 4]",
+        "value": 0.138
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - ESL / Earth Science Lab / vd Graaff building [Princetonlaan 4]",
+        "value": 0.136
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Genmab R&D Centre",
+        "value": 0.133
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Marinus Ruppert Building [Leuvenlaan 21]",
+        "value": 0.108
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Boiler House DGK [Jenalaan 12 KETELHUIS]",
+        "value": 0.088
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Tolakker [Limalaan 19]",
+        "value": 0.088
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Caroline Bleeker building [Sorbonnelaan 4]",
+        "value": 0.081
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Boiler House NorthWest [Princetonlaan 10]",
+        "value": 0.067
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Sjoerd Groenmangebouw [Padualaan 14]",
+        "value": 0.065
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - SL2 (formerly SRON) [Sorbonnelaan 2] (vacant)",
+        "value": 0.055
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - ACCU [Budapestlaan 8]",
+        "value": 0.054
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Freudenthal Building / Mathematics [Budapestlaan 6]",
+        "value": 0.053
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Fort Hoofddijk [Budapestlaan 17]",
+        "value": 0.032
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Cambridgelaan Parking Garage",
+        "value": 0.023
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Van Unnik Building [Heidelberglaan 2]",
+        "value": 0.02
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Jenalaan P7",
+        "value": 0.014
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Toulouselaan 43+45",
+        "value": 0.013
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - P9 Budapestlaan",
+        "value": 0.011
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - General outbuilding [Sorbonnelaan 2]",
+        "value": 0.01
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Olympos Parking Garage (P10) [Uppsalalaan 3 Park.]",
+        "value": 0.01
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Transition Building (formerly Earth Sciences) [Budapestlaan 4]",
+        "value": 0.001
+      }
+    ],
+    "heat": [
+      {
+        "category": "Supply",
+        "source": "District Heating & WKC Central Plant",
+        "target": "USP Campus Thermal Grid",
+        "value": 18.694
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Hugo Kruytgebouw  [Padualaan 8] [Heat]",
+        "value": 4.038
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Nieuw Gildestein  [Yalelaan 2] [Heat]",
+        "value": 2.501
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Androclusgebouw [Yalelaan 1 A] [Heat]",
+        "value": 2.059
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Willem C. Schimmel gebouw / Kliniek Heelkunde [Yalelaan 112] [Heat]",
+        "value": 1.267
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Researchkassen Botanische tuin [Uppsalalaan TUIN] [Heat]",
+        "value": 0.917
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Prof. Dr. H. Jakob gebouw / Kliniek gezelschapsdieren [Yalelaan 8] [Heat]",
+        "value": 0.792
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - David de Wiedgebouw [Universiteitsweg 99] [Heat]",
+        "value": 0.788
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Buys Ballot laboratorium [Princetonplein 5] [Heat]",
+        "value": 0.761
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Universiteits Bibliotheek USP (UBU) [Heidelberglaan 3] [Heat]",
+        "value": 0.577
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Ornstein laboratorium [Princetonplein 1] [Heat]",
+        "value": 0.552
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Bestuursgebouw [Heidelberglaan 8] [Heat]",
+        "value": 0.52
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Marinus de Bruin gebouw / Landbouw huisdieren [Yalelaan 7] [Heat]",
+        "value": 0.497
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw C (VMC/NITG-TNO) [Princetonlaan 6] [Heat]",
+        "value": 0.448
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Marinus Ruppertgebouw [Leuvenlaan 21] [Heat]",
+        "value": 0.437
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Heijmans van den Berghgebouw [Universiteitsweg 98] [Heat]",
+        "value": 0.434
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Educatorium [Leuvenlaan 19] [Heat]",
+        "value": 0.419
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Jeanette Donker-Voet gebouw [Yalelaan 104-106] [Heat]",
+        "value": 0.415
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Caroline Bleeker gebouw [Sorbonnelaan 4] [Heat]",
+        "value": 0.274
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Victor J. Koningsbergergebouw / Onderwijscentrum [Budapestlaan 2] [Heat]",
+        "value": 0.237
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - ESL / Earth Science Lab / v.d. Graaff gebouw [Princetonlaan 4] [Heat]",
+        "value": 0.207
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Minnaertgebouw [Leuvenlaan 4] [Heat]",
+        "value": 0.194
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Freudenthal gebouw / Wiskunde [Budapestlaan 6] [Heat]",
+        "value": 0.175
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - SL2 (voorheen SRON) [Sorbonnelaan 2] (staat leeg) [Heat]",
+        "value": 0.078
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw B (VMB/GML) [Princetonlaan 8] [Heat]",
+        "value": 0.07
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Fort Hoofddijk  [Budapestlaan 17] [Heat]",
+        "value": 0.021
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Bloembergen gebouw  [Padualaan 12] [Heat]",
+        "value": 0.014
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw A (VMA/Geo) [Princetonlaan 8 A] [Heat]",
+        "value": 0.002
+      }
+    ],
+    "summary": {
+      "total_electricity_demand_gwh": 18.674,
+      "grid_import_gwh": 9.395,
+      "chp_electricity_gwh": 9.15,
+      "pv_generation_gwh": 0.129,
+      "total_heat_demand_gwh": 18.694
+    }
+  },
+  "Full Year 2025 (Annual Total)": {
+    "electricity": [
+      {
+        "category": "Supply",
+        "source": "National Grid Import",
+        "target": "USP Campus Electricity Grid",
+        "value": 35.222
+      },
+      {
+        "category": "Supply",
+        "source": "Local CHP (WKK Production)",
+        "target": "USP Campus Electricity Grid",
+        "value": 37.279
+      },
+      {
+        "category": "Supply",
+        "source": "Local Solar PV Generation",
+        "target": "USP Campus Electricity Grid",
+        "value": 1.834
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UMCU - WKZ [Elektra inkoop WKZ]",
+        "value": 17.547
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UMCU - AZU [Veld 18 + Veld 19]",
+        "value": 5.717
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Hugo Kruyt Building [Padualaan 8]",
+        "value": 4.388
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - David de Wied building [Universiteitsweg 99]",
+        "value": 3.846
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Accelerator",
+        "value": 3.512
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Androclus building [Yalelaan 1 A]",
+        "value": 3.445
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - New Gildestein [Yalelaan 2]",
+        "value": 2.974
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - University Library USP (UBU) [Heidelberglaan 3]",
+        "value": 2.652
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Heidelberglaan 7",
+        "value": 1.935
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Victor J. Koningsberger Building / Education Center [Budapestlaan 2]",
+        "value": 1.683
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Willem C. Schimmel Building / Surgical Clinic [Yalelaan 112]",
+        "value": 1.631
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 101",
+        "value": 1.631
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz building B (VMB/GML) [Princetonlaan 8]",
+        "value": 1.509
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Prof. Dr. H. Jakob building / Pet clinic [Yalelaan 8]",
+        "value": 1.373
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Heidelberglaan 15",
+        "value": 1.302
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Jeanette Donker-Voet building [Yalelaan 104-106]",
+        "value": 1.264
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 97",
+        "value": 1.133
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Genmab R&D Centre",
+        "value": 1.036
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Bloembergen building [Padualaan 12]",
+        "value": 0.9
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Bolognalaan 101",
+        "value": 0.867
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Marinus de Bruin building / Farm animals [Yalelaan 7]",
+        "value": 0.864
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Ornstein Laboratory [Princetonplein 1]",
+        "value": 0.842
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "Kadans - Plus Ultra",
+        "value": 0.841
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz building A (VMA/Geo) [Princetonlaan 8 A]",
+        "value": 0.751
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Vening Meinesz Building C (VMC/NITG-TNO) [Princetonlaan 6]",
+        "value": 0.731
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Heijmans van den Bergh Building [Universiteitsweg 98]",
+        "value": 0.73
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "SSH - Johanna",
+        "value": 0.724
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Educatorium [Leuvenlaan 19]",
+        "value": 0.72
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Buys Ballot laboratory [Princetonplein 5]",
+        "value": 0.7
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "HU - Padualaan 99",
+        "value": 0.674
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Administration building [Heidelberglaan 8]",
+        "value": 0.669
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "SSH - De Bisschoppen",
+        "value": 0.649
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Langeveld building [Heidelberglaan 1]",
+        "value": 0.581
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - ESL / Earth Science Lab / vd Graaff building [Princetonlaan 4]",
+        "value": 0.567
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - NPEC [Padualaan 6]",
+        "value": 0.555
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Minnaert Building [Leuvenlaan 4]",
+        "value": 0.538
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Marinus Ruppert Building [Leuvenlaan 21]",
+        "value": 0.443
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Caroline Bleeker building [Sorbonnelaan 4]",
+        "value": 0.328
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Tolakker [Limalaan 19]",
+        "value": 0.308
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Boiler House DGK [Jenalaan 12 KETELHUIS]",
+        "value": 0.276
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Sjoerd Groenmangebouw [Padualaan 14]",
+        "value": 0.249
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Freudenthal Building / Mathematics [Budapestlaan 6]",
+        "value": 0.209
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - ACCU [Budapestlaan 8]",
+        "value": 0.208
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - SL2 (formerly SRON) [Sorbonnelaan 2] (vacant)",
+        "value": 0.161
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Fort Hoofddijk [Budapestlaan 17]",
+        "value": 0.148
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Boiler House NorthWest [Princetonlaan 10]",
+        "value": 0.135
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Cambridgelaan Parking Garage",
+        "value": 0.089
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Olympos Parking Garage (P10) [Uppsalalaan 3 Park.]",
+        "value": 0.063
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Jenalaan P7",
+        "value": 0.053
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - P9 Budapestlaan",
+        "value": 0.049
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Toulouselaan 43+45",
+        "value": 0.049
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - General outbuilding [Sorbonnelaan 2]",
+        "value": 0.045
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Van Unnik Building [Heidelberglaan 2]",
+        "value": 0.038
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Farm de Boeijen / Vossegatsedijk 2 (house + meadow)",
+        "value": 0.002
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - Transition Building (formerly Earth Sciences) [Budapestlaan 4]",
+        "value": 0.001
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Electricity Grid",
+        "target": "UU - House + pressure sewer [Rijnsoever 20]",
+        "value": 0.001
+      }
+    ],
+    "heat": [
+      {
+        "category": "Supply",
+        "source": "District Heating & WKC Central Plant",
+        "target": "USP Campus Thermal Grid",
+        "value": 44.017
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Hugo Kruytgebouw  [Padualaan 8] [Heat]",
+        "value": 8.78
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Androclusgebouw [Yalelaan 1 A] [Heat]",
+        "value": 7.961
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Nieuw Gildestein  [Yalelaan 2] [Heat]",
+        "value": 5.996
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Willem C. Schimmel gebouw / Kliniek Heelkunde [Yalelaan 112] [Heat]",
+        "value": 2.52
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Researchkassen Botanische tuin [Uppsalalaan TUIN] [Heat]",
+        "value": 2.149
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Prof. Dr. H. Jakob gebouw / Kliniek gezelschapsdieren [Yalelaan 8] [Heat]",
+        "value": 1.741
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Heijmans van den Berghgebouw [Universiteitsweg 98] [Heat]",
+        "value": 1.479
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Ornstein laboratorium [Princetonplein 1] [Heat]",
+        "value": 1.444
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Buys Ballot laboratorium [Princetonplein 5] [Heat]",
+        "value": 1.32
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Universiteits Bibliotheek USP (UBU) [Heidelberglaan 3] [Heat]",
+        "value": 1.252
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - David de Wiedgebouw [Universiteitsweg 99] [Heat]",
+        "value": 1.239
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Marinus de Bruin gebouw / Landbouw huisdieren [Yalelaan 7] [Heat]",
+        "value": 1.185
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Bestuursgebouw [Heidelberglaan 8] [Heat]",
+        "value": 1.083
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Educatorium [Leuvenlaan 19] [Heat]",
+        "value": 0.851
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Marinus Ruppertgebouw [Leuvenlaan 21] [Heat]",
+        "value": 0.84
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Jeanette Donker-Voet gebouw [Yalelaan 104-106] [Heat]",
+        "value": 0.823
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - ESL / Earth Science Lab / v.d. Graaff gebouw [Princetonlaan 4] [Heat]",
+        "value": 0.657
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw C (VMC/NITG-TNO) [Princetonlaan 6] [Heat]",
+        "value": 0.597
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Caroline Bleeker gebouw [Sorbonnelaan 4] [Heat]",
+        "value": 0.53
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Victor J. Koningsbergergebouw / Onderwijscentrum [Budapestlaan 2] [Heat]",
+        "value": 0.422
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Freudenthal gebouw / Wiskunde [Budapestlaan 6] [Heat]",
+        "value": 0.341
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Minnaertgebouw [Leuvenlaan 4] [Heat]",
+        "value": 0.301
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw B (VMB/GML) [Princetonlaan 8] [Heat]",
+        "value": 0.229
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - SL2 (voorheen SRON) [Sorbonnelaan 2] (staat leeg) [Heat]",
+        "value": 0.193
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Fort Hoofddijk  [Budapestlaan 17] [Heat]",
+        "value": 0.038
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Bloembergen gebouw  [Padualaan 12] [Heat]",
+        "value": 0.037
+      },
+      {
+        "category": "Demand",
+        "source": "USP Campus Thermal Grid",
+        "target": "UU - Vening Meinesz gebouw A (VMA/Geo) [Princetonlaan 8 A] [Heat]",
+        "value": 0.009
+      }
+    ],
+    "summary": {
+      "total_electricity_demand_gwh": 74.336,
+      "grid_import_gwh": 35.222,
+      "chp_electricity_gwh": 37.279,
+      "pv_generation_gwh": 1.834,
+      "total_heat_demand_gwh": 44.017
+    }
+  }
+}
