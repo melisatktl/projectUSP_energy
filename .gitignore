@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files - NOT uploaded to GitHub (too large / sensitive)
+datas/
+fix_escape.py
+
+# Local Streamlit config
+.streamlit/secrets.toml
