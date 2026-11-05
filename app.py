@@ -375,23 +375,28 @@ def init_session_state():
                 "summary": sdata["summary"]
             }
             
+    # Streamlit menüsündeki isimlerle birebir aynı anahtarları oluştur
     for sname in BASE_DATA.keys():
-        for vector in ["electricity", "heat", "combined"]:
+        for vector in ["Electricity", "Heat", "Combined (Electricity & Heat)"]:
             key = f"reset_ver_{sname}_{vector}"
             if key not in st.session_state:
                 st.session_state[key] = 0
 
 
 def reset_active_data(scenario_name: str, vector_choice: str):
-    if vector_choice in ["Electricity", "Combined"]:
+    if vector_choice in ["Electricity", "Combined (Electricity & Heat)"]:
         st.session_state["seasonal_data"][scenario_name]["electricity"] = pd.DataFrame(
             BASE_DATA[scenario_name]["electricity"]
         )
-    if vector_choice in ["Heat", "Combined"]:
+    if vector_choice in ["Heat", "Combined (Electricity & Heat)"]:
         st.session_state["seasonal_data"][scenario_name]["heat"] = pd.DataFrame(
             BASE_DATA[scenario_name]["heat"]
         )
-    st.session_state[f"reset_ver_{scenario_name}_{vector_choice}"] += 1
+    
+    # Güncelleme sırasında anahtarın var olduğundan emin ol
+    key = f"reset_ver_{scenario_name}_{vector_choice}"
+    if key in st.session_state:
+        st.session_state[key] += 1
 
 
 # ==============================================================================
@@ -492,7 +497,6 @@ def main():
     )
 
     season_pack = st.session_state["seasonal_data"][selected_season]
-    summary_stats = season_pack["summary"]
 
     if selected_vector == "Electricity":
         current_df = season_pack["electricity"].copy()
@@ -507,21 +511,11 @@ def main():
         unsafe_allow_html=True
     )
 
-    # METRIC CARDS
-    el_demand = summary_stats["total_electricity_demand_gwh"]
-    grid_imp = summary_stats["grid_import_gwh"]
-    chp_gen = summary_stats["chp_electricity_gwh"]
-    pv_gen = summary_stats["pv_generation_gwh"]
-    heat_dem = summary_stats["total_heat_demand_gwh"]
-    
-    grid_pct = (grid_imp / el_demand * 100) if el_demand > 0 else 0
-    chp_pct = (chp_gen / el_demand * 100) if el_demand > 0 else 0
-    pv_pct = (pv_gen / el_demand * 100) if el_demand > 0 else 0
-
-    k1, k2, k3, k4, k5 = st.columns(5)
-    
+    # DYNAMIC TOP METRIC CARDS (Calculates live from active current_df)
     demand_rows = current_df[current_df["category"] == "Demand"]
     supply_rows = current_df[current_df["category"] == "Supply"]
+
+    k1, k2, k3, k4, k5 = st.columns(5)
 
     if selected_vector == "Heat":
         heat_total = demand_rows["value"].sum()
@@ -648,26 +642,32 @@ def main():
 
         col_analysis, col_balance = st.columns([3, 2])
         with col_analysis:
+            pv_gen_val = current_df.loc[current_df["source"].str.contains("Solar|PV", case=False, na=False), "value"].sum()
+            chp_gen_val = current_df.loc[current_df["source"].str.contains("CHP|WKK", case=False, na=False), "value"].sum()
+            grid_imp_val = current_df.loc[current_df["source"] == "National Grid Import", "value"].sum()
+            heat_dem_val = demand_rows[demand_rows["target"].str.contains(r"\[Heat\]", na=False)]["value"].sum() if selected_vector != "Electricity" else demand_rows["value"].sum()
+            el_dem_val = demand_rows[~demand_rows["target"].str.contains(r"\[Heat\]", na=False)]["value"].sum() if selected_vector != "Heat" else 0.0
+
             if "Summer" in selected_season:
                 st.info(f"""
                 **☀️ Summer Season Characteristics (Jun - Aug 2025):**
-                * **Peak Solar Production:** Solar PV generates **{pv_gen:.3f} GWh**, nearly 6x higher than in winter.
-                * **Low Heat Consumption:** Total campus heat demand drops to **{heat_dem:.2f} GWh**, as space heating is inactive.
-                * **Steady Electricity:** Electricity demand remains robust at **{el_demand:.2f} GWh** driven by labs and chillers.
-                * **CHP Baseload:** Local CHP generates **{chp_gen:.2f} GWh** ({chp_pct:.1f}% of campus electricity).
+                * **Peak Solar Production:** Solar PV generates **{pv_gen_val:.3f} GWh**.
+                * **Low Heat Consumption:** Total campus heat demand is **{heat_dem_val:.2f} GWh**.
+                * **Steady Electricity:** Electricity demand remains robust at **{el_dem_val:.2f} GWh**.
+                * **CHP Baseload:** Local CHP generates **{chp_gen_val:.2f} GWh**.
                 """)
             elif "Winter" in selected_season:
                 st.warning(f"""
                 **❄️ Winter Season Characteristics (Dec - Feb 2025):**
-                * **Heat Demand Surge:** Total campus heat demand skyrockets to **{heat_dem:.2f} GWh** (+230% over summer).
-                * **Solar Drop:** Solar PV plummets to just **{pv_gen:.3f} GWh** due to low solar irradiance.
-                * **Grid Dependence:** External grid import supplies **{grid_imp:.2f} GWh** ({grid_pct:.1f}% of campus power).
+                * **Heat Demand Surge:** Total campus heat demand is **{heat_dem_val:.2f} GWh**.
+                * **Solar Drop:** Solar PV yields **{pv_gen_val:.3f} GWh**.
+                * **Grid Dependence:** External grid import supplies **{grid_imp_val:.2f} GWh**.
                 """)
             else:
                 st.info(f"""
                 **📅 Full Year 2025 Totals:**
-                * **Total Campus Electricity:** **{el_demand:.2f} GWh**.
-                * **Total Campus Heat:** **{heat_dem:.2f} GWh** supplied via district heating.
+                * **Total Campus Electricity:** **{el_dem_val:.2f} GWh**.
+                * **Total Campus Heat:** **{heat_dem_val:.2f} GWh**.
                 """)
 
         with col_balance:
@@ -701,17 +701,20 @@ def main():
                 "category": st.column_config.SelectboxColumn("Category", options=["Supply", "Demand"], required=True),
                 "source": st.column_config.TextColumn("Source Node", required=True),
                 "target": st.column_config.TextColumn("Target / Building Name", required=True),
-                "value": st.column_config.NumberColumn("Energy Flow (GWh)", min_value=0.0, max_value=500.0, step=0.01, format="%.3f GWh", required=True),
+                "value": st.column_config.NumberColumn("Energy Flow (GWh)", min_value=0.0, max_value=10000.0, step=0.01, format="%.3f GWh", required=True),
             },
             num_rows="dynamic",
             use_container_width=True,
             key=editor_key
         )
 
-        if selected_vector == "Electricity":
-            st.session_state["seasonal_data"][selected_season]["electricity"] = edited_df
-        elif selected_vector == "Heat":
-            st.session_state["seasonal_data"][selected_season]["heat"] = edited_df
+        # Detect changes and trigger instant rerun so upper metric cards update live
+        if not edited_df.equals(current_df):
+            if selected_vector == "Electricity":
+                st.session_state["seasonal_data"][selected_season]["electricity"] = edited_df
+            elif selected_vector == "Heat":
+                st.session_state["seasonal_data"][selected_season]["heat"] = edited_df
+            st.rerun()
 
         st.success("✅ Changes preserved in session. Live Sankey preview updates below:")
 
@@ -769,7 +772,14 @@ def main():
                             st.session_state["seasonal_data"][selected_season]["electricity"] = new_data
                         elif selected_vector == "Heat":
                             st.session_state["seasonal_data"][selected_season]["heat"] = new_data
-                        st.session_state[f"reset_ver_{selected_season}_{selected_vector}"] += 1
+                        else:
+                            st.session_state["seasonal_data"][selected_season]["electricity"] = new_data[~new_data["target"].str.contains(r"\[Heat\]", na=False)]
+                            st.session_state["seasonal_data"][selected_season]["heat"] = new_data[new_data["target"].str.contains(r"\[Heat\]", na=False)]
+
+                        key = f"reset_ver_{selected_season}_{selected_vector}"
+                        if key in st.session_state:
+                            st.session_state[key] += 1
+
                         st.success(f"🎉 Successfully imported '{uploaded_file.name}'!")
                         st.rerun()
                     else:
